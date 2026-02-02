@@ -1,20 +1,15 @@
-# DVLM_PA0
-To use this as a GitHub `README.md`, copy and paste the block below into a file named `README.md` in the root of your repository.
+# Deep Vision Language Models (DVLM) PA0 Assignment 
 
----
+This repository contains a suite of technical evaluations focusing on four tasks of Programming Assignment (PA0) of DVLM Course: **Residual Networks (ResNet)**, **Vision Transformers (ViT)**, **Variational Autoencoders (VAE)**, and **Contrastive Language-Image Pre-training (CLIP)**.
 
-# Deep Learning Architectures & Interpretability Analysis
-
-This repository contains a suite of technical evaluations focusing on four major pillars of modern Deep Learning: **Residual Networks (ResNet)**, **Vision Transformers (ViT)**, **Variational Autoencoders (VAE)**, and **Contrastive Language-Image Pre-training (CLIP)**.
-
-The project covers performance benchmarking, internal mechanism visualization (attention maps), robustness testing, and latent space analysis.
+This covers performance benchmarking, internal mechanism visualization (attention maps), robustness testing, and latent space analysis.
 
 ## 📂 Project Structure
 
 | File | Task | Description |
 | --- | --- | --- |
 | `Task1.ipynb` | **ResNet Analysis** | Fine-tuning ResNet-152 on CIFAR-10 and conducting ablation studies on residual connections. |
-| `vit_comprehensive_analysis.py` | **ViT Core** | Backend classes for ViT inference, attention rollout, and patch masking. |
+| `vit_comprehensive_analysis.py` | **ViT Core (Task 2)** | Backend classes for ViT inference, attention rollout, and patch masking. |
 | `Test_ViT.py` | **ViT Execution** | Main script to run the Vision Transformer analysis on custom images. |
 | `Task3.ipynb` | **VAE Generative** | Training a VAE on FashionMNIST to visualize latent space clusters and reconstruction. |
 | `Task4.ipynb` | **CLIP Modality Gap** | Measuring the geometric gap between text and image embeddings in CLIP using t-SNE and Procrustes alignment. |
